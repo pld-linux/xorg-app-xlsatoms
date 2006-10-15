@@ -2,10 +2,10 @@ Summary:	xlsatoms application
 Summary(pl):	Aplikacja xlsatoms
 Name:		xorg-app-xlsatoms
 Version:	1.0.1
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/xlsatoms-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/app/xlsatoms-%{version}.tar.bz2
 # Source0-md5:	69adcda848479acc3b82b3928812d191
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
@@ -46,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog
-%attr(755,root,root) %{_bindir}/*
-%{_mandir}/man1/*.1x*
+%attr(755,root,root) %{_bindir}/xlsatoms
+%{_mandir}/man1/xlsatoms.1x*
