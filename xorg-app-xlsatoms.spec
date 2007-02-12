@@ -1,5 +1,5 @@
 Summary:	xlsatoms application
-Summary(pl):	Aplikacja xlsatoms
+Summary(pl.UTF-8):   Aplikacja xlsatoms
 Name:		xorg-app-xlsatoms
 Version:	1.0.1
 Release:	1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xlsatoms application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xlsatoms.
 
 %prep
