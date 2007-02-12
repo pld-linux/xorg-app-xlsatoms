@@ -1,5 +1,5 @@
 Summary:	xlsatoms application
-Summary(pl.UTF-8):   Aplikacja xlsatoms
+Summary(pl.UTF-8):	Aplikacja xlsatoms
 Name:		xorg-app-xlsatoms
 Version:	1.0.1
 Release:	1
