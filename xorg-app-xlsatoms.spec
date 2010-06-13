@@ -1,18 +1,17 @@
 Summary:	xlsatoms application to list the interned atoms defined on an X11 server
 Summary(pl.UTF-8):	Aplikacja xlsatoms do wypisywania elementów zdefiniowanych w serwerze X11
 Name:		xorg-app-xlsatoms
-Version:	1.0.2
+Version:	1.1.0
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xlsatoms-%{version}.tar.bz2
-# Source0-md5:	dc8b420bbfa35091ea30edf57c952ec2
+# Source0-md5:	c543ccb6489b629d427810d9a57d0724
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
+BuildRequires:	libxcb-devel
 BuildRequires:	pkgconfig >= 1:0.19
-# just xmuu
-BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-util-util-macros >= 1.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
